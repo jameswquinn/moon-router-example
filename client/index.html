@@ -1,0 +1,11 @@
+  <%= require('html-loader!./views/partial/header.html') %>
+
+  <div id="app">
+      			<nav>
+      				<router-link to="/">Home</router-link>
+      				<router-link to="/calculator">Calculator</router-link>
+      			</nav>
+      		  	<router-view></router-view>
+      		</div>
+
+  <%= require('html-loader!./views/partial/footer.html') %>
