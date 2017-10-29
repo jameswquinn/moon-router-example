@@ -8,7 +8,6 @@ var CompressionPlugin = require('compression-webpack-plugin');
 module.exports = {
   context: __dirname,
   entry: './client/app/app.js',
-  //entry: './client/app/pages/home.js',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'public/bundle.min.js'

@@ -7,7 +7,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   context: __dirname,
   entry: './client/app/app.js',
-  //entry: './client/app/pages/home.js',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'public/bundle.js'
@@ -21,7 +20,7 @@ module.exports = {
         presets: ['es2015']
       }
     },{
-      test: /\.scss$/,
+      test: /\.(css|scss|sass)$/,
       use: ExtractTextPlugin.extract({
         fallback: 'style-loader',
         use: ['css-loader?-minimize', 'sass-loader']

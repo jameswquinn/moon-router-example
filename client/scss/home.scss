@@ -1,0 +1,73 @@
+/* === Footer === */
+body {
+  background: #111111;
+  color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f5f5f5;
+  letter-spacing: 1px;
+  font-family: "Glacial Indifference", -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-weight: 200;
+}
+footer {
+	margin: 5rem;
+}
+
+#footer-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#footer-name, #footer-madeby {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 2.5rem;
+}
+
+#footer-name {
+	font-family: "Gilroy-Bold", sans-serif;
+}
+
+#footer-desc {
+	margin-left: 1rem;
+	font-family: "Gilroy-Light", sans-serif;
+}
+
+#footer-logo {
+	height: 75px;
+	width: 75px;
+	border-radius: 10px;
+	margin-bottom: 0;
+}
+
+#footer-link {
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+#logo {
+  height: 120px;
+  margin-bottom: 5rem;
+}
+.cta {
+  padding: 1.7rem 5rem;
+  background: #4c47f9;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #f5f5f5;
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  color: #f5f5f5;
+  padding: 1.7rem 5.3rem;
+}
