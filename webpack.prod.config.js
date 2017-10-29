@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-var CompressionPlugin = require('compression-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 module.exports = {
   context: __dirname,
@@ -21,7 +21,7 @@ module.exports = {
         presets: ['es2015']
       }
     },{
-      test: /\.scss$/,
+      test: /\.(css|scss|sass)$/,
       use: ExtractTextPlugin.extract({
         fallback: 'style-loader',
         use: ['css-loader?-minimize', 'sass-loader']
